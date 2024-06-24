@@ -41,6 +41,7 @@ public class C02_dependsOnMethods {
         String expectedUrlIcerik="amazon";
         String actualUrl=Driver.getDriver().getCurrentUrl();
 
+
         Assert.assertTrue(actualUrl.contains(expectedUrlIcerik));
     }
     @Test(dependsOnMethods = "amazonTest")
@@ -66,5 +67,6 @@ public class C02_dependsOnMethods {
         String actualUrunIsmi=urunIsimElementi.getText();
 
         Assert.assertTrue(actualUrunIsmi.contains(expectedIcerik));
+        Driver.closeDriver();
     }
 }
