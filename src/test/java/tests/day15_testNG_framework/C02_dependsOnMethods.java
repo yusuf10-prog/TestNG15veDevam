@@ -20,7 +20,7 @@ public class C02_dependsOnMethods {
     sadece yazildigi test calismadan once, baglandigi testin
     calistigindan ve PASSED oldugundan emin olmak ister
 
-    bagli oldugu test calismaz veya calisir ama PASSED olmazsa
+    Bagli oldugu test calismaz veya calisir ama PASSED olmazsa
     DependOnMethods'un yazildigi test IGNORE olur.
 
     DependsOnMethods yazildigi method tek basina calistirilmak istenirse
@@ -28,6 +28,10 @@ public class C02_dependsOnMethods {
     kendinden once bagli oldugu method'un calismasini saglar.
 
     Ama bu baglanti birden fazla method'u calistirmaz.
+
+    priority kullanilarak bir method'un once calismasi istense de
+    o method onceligi bagli oldugu method'a devreder.
+    bagli olunan method da baska method'a bagliysa once onu calistirir.
 
      */
 
@@ -56,7 +60,7 @@ public class C02_dependsOnMethods {
 
         Assert.assertTrue(actualSonucYazisi.contains(expectedIcerik));
     }
-    @Test(dependsOnMethods = "nutellaTest")
+    @Test(priority = -1,dependsOnMethods = "nutellaTest")
     public void ilkUrunTesti(){
 
 
