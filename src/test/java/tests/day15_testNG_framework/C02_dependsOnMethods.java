@@ -14,7 +14,6 @@ public class C02_dependsOnMethods {
     //3- ilkUrunTesti: ilk urunu click yapip, urun isminin Nutella icerdigini test edin
 
     /*
-
     DependsOnMethods priority'den farklidir.
     DepensOnMethods hangi method'un once calisacagina karar vermez
     sadece yazildigi test calismadan once, baglandigi testin
@@ -45,7 +44,6 @@ public class C02_dependsOnMethods {
         String expectedUrlIcerik="amazon";
         String actualUrl=Driver.getDriver().getCurrentUrl();
 
-
         Assert.assertTrue(actualUrl.contains(expectedUrlIcerik));
     }
     @Test(dependsOnMethods = "amazonTest")
@@ -62,7 +60,6 @@ public class C02_dependsOnMethods {
     }
     @Test(priority = -1,dependsOnMethods = "nutellaTest")
     public void ilkUrunTesti(){
-
 
         Driver.getDriver().findElement(By.xpath("(//img[@class='s-image s-image-optimized-rendering'])[1]")).click();
         WebElement urunIsimElementi=Driver.getDriver().findElement(By.xpath("//span[@id='productTitle']"));
