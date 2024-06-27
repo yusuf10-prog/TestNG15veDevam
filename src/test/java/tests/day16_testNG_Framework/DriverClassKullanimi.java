@@ -23,8 +23,17 @@ public class DriverClassKullanimi {
     }
 
     @Test
+    public void facebookTesti() {
+        Driver.getDriver().get("https://www.facebook.com/");
+        Driver.closeDriver();
+
+    }
+
+    @Test
     public void youtubeTesti(){
         Driver.getDriver().get("https://www.youtube.com/");
+
+        Driver.closeDriver();
     }
 
 }
