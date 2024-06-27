@@ -12,9 +12,7 @@ public class C02_PageClassKullanimi {
 
         // Nutella icin arama yapalim
 
-
         // arama sonuclarinin Nutella icerdigini test edelim
-
 
         // driver'i kapatalim
 
