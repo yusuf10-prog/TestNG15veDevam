@@ -18,7 +18,7 @@ public class DriverClassKullanimi {
         WebElement aramaKutusu=Driver.getDriver().findElement(By.id("twotabsearchtextbox"));
 
         // sayfayi kapatin
-        Driver.closeDriver();
+       // Driver.closeDriver();
 
     }
 
