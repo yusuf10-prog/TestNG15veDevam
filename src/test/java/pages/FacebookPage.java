@@ -19,4 +19,7 @@ public class FacebookPage {
 
     @FindBy(xpath = "//*[@type='submit']")
     public WebElement loginButton;
+
+    @FindBy(xpath ="//div[@class='_9ay7']" )
+    public WebElement girisYapilamadiYaziElementi;
 }

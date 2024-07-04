@@ -1,6 +1,7 @@
 package tests.day16_testNG_Framework;
 
 import com.github.javafaker.Faker;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.FacebookPage;
 import utilities.Driver;
@@ -29,5 +30,8 @@ public class C03_FacebookTest {
         facebookPage.loginButton.click();
 
         //4- Basarili giris yapilamadigini test edin.
+
+        Assert.assertTrue(facebookPage.girisYapilamadiYaziElementi.isDisplayed());
+
     }
 }
