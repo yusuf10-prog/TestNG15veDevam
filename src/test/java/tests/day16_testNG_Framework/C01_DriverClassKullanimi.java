@@ -5,7 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 import utilities.Driver;
 
-public class DriverClassKullanimi {
+public class C01_DriverClassKullanimi {
     @Test
     public void amazonTest(){
 

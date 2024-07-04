@@ -33,5 +33,7 @@ public class C03_FacebookTest {
 
         Assert.assertTrue(facebookPage.girisYapilamadiYaziElementi.isDisplayed());
 
+        ReusableMethods.tumSayfaFotografCek("Facebook");
+
     }
 }
