@@ -29,6 +29,8 @@ public class C04_QualitydemyPozitifLogin {
         // 6- Basarili olarak giris yapilabildigini test edin
         Assert.assertTrue(qualitydemyPage.basariliGirisElementi.isDisplayed());
 
+        // 7- Sayfa kapatirilir.
+
         Driver.closeDriver();
 
     }
