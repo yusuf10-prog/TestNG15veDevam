@@ -14,7 +14,6 @@ public class C04_QualitydemyPozitifLogin {
         // 1- https://www.qualitydemy.com/ anasayfasina gidin
         Driver.getDriver().get("https://www.qualitydemy.com/ ");
 
-
         // 2- login linkine basin
         QualitydemyPage qualitydemyPage=new QualitydemyPage();
 
