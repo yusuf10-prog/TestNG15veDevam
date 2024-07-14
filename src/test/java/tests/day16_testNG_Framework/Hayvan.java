@@ -47,8 +47,8 @@ public class Hayvan {
         Hayvan kurbaga=new Kurbaga();
         Hayvan esek=new Esek();
 
-        System.out.println(Kedi.sesCikar()); //Miyav!
-        System.out.println(Kopek.sesCikar());  //Hav hav!
+        System.out.println(Kedi.sesCikar());    //Miyav!
+        System.out.println(Kopek.sesCikar());   //Hav hav!
         System.out.println(hayvan.sesCikar());  // Hayvan ses çıkarıyor.
         System.out.println(ordek.sesCikar());   //gulu gulu!
         System.out.println(kurbaga.sesCikar()); // wak wak!
