@@ -50,9 +50,8 @@ public class Hayvan {
         System.out.println(Kedi.sesCikar()); //Miyav!
         System.out.println(Kopek.sesCikar());  //Hav hav!
         System.out.println(hayvan.sesCikar());  // Hayvan ses çıkarıyor.
-        System.out.println(ordek.sesCikar());  //gulu gulu!
+        System.out.println(ordek.sesCikar());   //gulu gulu!
         System.out.println(kurbaga.sesCikar()); // wak wak!
-        System.out.println(esek.sesCikar()); // ai ai!
-
+        System.out.println(esek.sesCikar());    // ai ai!
     }
 }
