@@ -25,18 +25,26 @@ public class Hayvan {
             return "gulu gulu!";
         }
     }
+
+    static class Kurbaga extends Hayvan{
+        @Override
+        public String sesCikar(){
+            return "wak wak!";
+        }
+    }
     public static void main(String[] args) {
 
         Hayvan Kedi=new Kedi();
         Hayvan Kopek=new Kopek();
         Hayvan hayvan=new Hayvan();
         Hayvan ordek=new Ordek();
+        Hayvan kurbaga=new Kurbaga();
 
         System.out.println(Kedi.sesCikar());
         System.out.println(Kopek.sesCikar());
         System.out.println(hayvan.sesCikar());
         System.out.println(ordek.sesCikar());
-
+        System.out.println(kurbaga.sesCikar());
 
     }
 }
