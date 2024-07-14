@@ -32,6 +32,12 @@ public class Hayvan {
             return "wak wak!";
         }
     }
+    static class Esek extends Hayvan{
+        @Override
+        public String sesCikar(){
+            return "ai ai!";
+        }
+    }
     public static void main(String[] args) {
 
         Hayvan Kedi=new Kedi();
@@ -39,12 +45,14 @@ public class Hayvan {
         Hayvan hayvan=new Hayvan();
         Hayvan ordek=new Ordek();
         Hayvan kurbaga=new Kurbaga();
+        Hayvan esek=new Esek();
 
-        System.out.println(Kedi.sesCikar());
-        System.out.println(Kopek.sesCikar());
-        System.out.println(hayvan.sesCikar());
-        System.out.println(ordek.sesCikar());
-        System.out.println(kurbaga.sesCikar());
+        System.out.println(Kedi.sesCikar()); //Miyav!
+        System.out.println(Kopek.sesCikar());  //Hav hav!
+        System.out.println(hayvan.sesCikar());  // Hayvan ses çıkarıyor.
+        System.out.println(ordek.sesCikar());  //gulu gulu!
+        System.out.println(kurbaga.sesCikar()); // wak wak!
+        System.out.println(esek.sesCikar()); // ai ai!
 
     }
 }
