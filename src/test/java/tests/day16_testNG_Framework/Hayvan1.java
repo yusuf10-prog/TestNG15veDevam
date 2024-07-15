@@ -1,11 +1,11 @@
 package tests.day16_testNG_Framework;
 
-public class Hayvan {
+public class Hayvan1 {
     public String sesCikar() {
         return "Hayvan ses çıkarıyor.";
     }
     // Alt sınıf
-    static class Kedi extends  Hayvan{
+    static class Kedi extends Hayvan1 {
         @Override
         public String sesCikar() {
             return "Miyav!";
@@ -13,32 +13,32 @@ public class Hayvan {
     }
 
     // Alt sınıf
-   static class Kopek extends Hayvan {
+   static class Kopek extends Hayvan1 {
         @Override
         public String sesCikar() {
             return "Hav hav!";
         }
     }
-    static class Ordek extends Hayvan{
+    static class Ordek extends Hayvan1 {
         @Override
         public String sesCikar(){
             return "gulu gulu!";
         }
     }
 
-    static class Kurbaga extends Hayvan{
+    static class Kurbaga extends Hayvan1 {
         @Override
         public String sesCikar(){
             return "wak wak!";
         }
     }
-    static class Esek extends Hayvan{
+    static class Esek extends Hayvan1 {
         @Override
         public String sesCikar(){
             return "ai ai!";
         }
     }
-    static class Ari extends Hayvan{
+    static class Ari extends Hayvan1 {
         @Override
         public String sesCikar(){
             return "vız vız!";
@@ -46,13 +46,13 @@ public class Hayvan {
     }
     public static void main(String[] args) {
 
-        Hayvan Kedi=new Kedi();
-        Hayvan Kopek=new Kopek();
-        Hayvan hayvan=new Hayvan();
-        Hayvan ordek=new Ordek();
-        Hayvan kurbaga=new Kurbaga();
-        Hayvan esek=new Esek();
-        Hayvan ari=new Ari();
+        Hayvan1 Kedi=new Kedi();
+        Hayvan1 Kopek=new Kopek();
+        Hayvan1 hayvan=new Hayvan1();
+        Hayvan1 ordek=new Ordek();
+        Hayvan1 kurbaga=new Kurbaga();
+        Hayvan1 esek=new Esek();
+        Hayvan1 ari=new Ari();
 
         System.out.println(Kedi.sesCikar());    //Miyav!
         System.out.println(Kopek.sesCikar());   //Hav hav!
