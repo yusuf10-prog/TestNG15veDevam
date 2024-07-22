@@ -26,8 +26,7 @@ public class C02_QualitydemyPozitifLoginTesti {
         //6 - Basarili olarak giris yapilabildigini test edin.
         Assert.assertTrue(qualitydemyPage.basariliGirisElementi.isDisplayed());
 
-        //7 - Tüm sayfanin fotosu cekilir
-
+        //7 - Tüm sayfanin fotosu cekilir.
         ReusableMethods.tumSayfaFotografCek("QualitiydemyPozitifLogin");
 
         //8 - Sayfa kapatilir.
