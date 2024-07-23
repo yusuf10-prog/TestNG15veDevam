@@ -22,11 +22,17 @@ public class C03_DriverSingletonPattern {
         Singleton Pattern bir class'dan obje olusturulmasini engelleyen
         yontemlerden birisi
 
-         */
+        Singleton pattern default constructor'i gorunur yapip
+        access modifer'ini private yaparak
+        constructor'a erisimi, dolasiyla da obje olusturmayi engeller.
+
+
 
         Driver driver=new Driver();
         driver.getDriver().get(ConfigReader.getProperty("amazonUrl"));
         ReusableMethods.bekle(3);
         driver.closeDriver();
+
+         */
     }
 }
