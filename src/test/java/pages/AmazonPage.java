@@ -31,4 +31,7 @@ public class AmazonPage {
    @FindBy(xpath ="//div[@class='a-section a-spacing-small a-spacing-top-small']" )
     public WebElement sonucYaziElementi;
 
+   @FindBy(xpath = "(//h2[@class='a-size-mini s-line-clamp-1'])[1]")
+    public WebElement ilkUrunElementi;
+
 }
