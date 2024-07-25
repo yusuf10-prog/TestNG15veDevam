@@ -31,7 +31,6 @@ public class C05_SoftAssert {
 
     @Test
     public void softAssertionTesti(){
-        //Test icin
 
     }
 }
