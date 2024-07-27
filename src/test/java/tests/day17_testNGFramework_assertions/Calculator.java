@@ -7,14 +7,20 @@ public class Calculator {
         return a + b;
     }
 
-    // Üç tamsayıyı toplama metodu (aşırı yüklenmiş)
+    // Üç tamsayiyi toplama metodu
     public int add(int a, int b, int c) {
         return a + b + c;
     }
 
     // 4 tamsayiyi toplama methodu
 
-    // İki ondalıklı sayıyı toplama metodu (aşırı yüklenmiş)
+    public int add(int a, int b, int c, int d) {
+        return  a + b + c + d;
+
+    }
+
+
+    // İki ondalikli sayiyi toplama methodu
     public double add(double a, double b) {
         return a + b;
     }
@@ -22,15 +28,17 @@ public class Calculator {
     public static void main(String[] args) {
         Calculator calc=new Calculator();
 
-        // İki tamsayıyı toplama
+        // İki tamsayiyi toplama
         System.out.println("Toplama (int): " + calc.add(5, 10));
 
-        // Üç tamsayıyı toplama
+        // Üç tamsayiyi toplama
         System.out.println("Toplama (int, int, int): " + calc.add(5, 10, 15));
 
-        // İki ondalıklı sayıyı toplama
-        System.out.println("Toplama (double): " + calc.add(5.5, 10.5));
+        // dort tamsayiyi toplama
+        System.out.println("Toplama (int, int, int, int)" + calc.add(3,4,5,6));
 
+        // İki ondalıklı sayiyi toplama
+        System.out.println("Toplama (double): " + calc.add(5.5, 10.5));
 
     }
 }
