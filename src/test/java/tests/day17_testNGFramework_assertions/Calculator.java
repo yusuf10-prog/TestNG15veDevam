@@ -13,18 +13,19 @@ public class Calculator {
     }
 
     // 4 tamsayiyi toplama methodu
-
     public int add(int a, int b, int c, int d) {
-        return  a + b + c + d;
+        return a + b + c + d;
 
     }
 
+    public int add(int a, int b, int c, int d, int e){
+            return a+b+c+d+e;
 
+    }
     // İki ondalikli sayiyi toplama methodu
     public double add(double a, double b) {
         return a + b;
     }
-
     public static void main(String[] args) {
         Calculator calc=new Calculator();
 
@@ -36,6 +37,11 @@ public class Calculator {
 
         // dort tamsayiyi toplama
         System.out.println("Toplama (int, int, int, int)" + calc.add(3,4,5,6));
+
+        // bes tamsayiyi toplama
+
+        System.out.println("Toplama(int, int, int, int)" + calc.add(1,2,3,4,5));
+
 
         // İki ondalıklı sayiyi toplama
         System.out.println("Toplama (double): " + calc.add(5.5, 10.5));
