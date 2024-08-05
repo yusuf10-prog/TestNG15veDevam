@@ -21,6 +21,10 @@ public class Calculator {
     public int add(int a, int b, int c, int d, int e){
             return a+b+c+d+e;
     }
+
+    public int add (int a, int b, int c, int d, int e, int f){
+        return a + b + c + d + e + f;
+    }
     // İki ondalikli sayiyi toplama methodu
     public double add(double a, double b) {
         return a + b;
@@ -40,6 +44,10 @@ public class Calculator {
         // bes tamsayiyi toplama
 
         System.out.println("Toplama(int, int, int, int)" + calc.add(1,2,3,4,5));
+
+        // alti tamsayiyi toplama
+
+        System.out.println("Toplama(int, int, int, int)" + calc.add(1,2,3,4,5, 6));
 
 
         // İki ondalıklı sayiyi toplama
