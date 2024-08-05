@@ -17,10 +17,9 @@ public class Calculator {
         return a + b + c + d;
 
     }
-
+    // 5 tamsayiyi toplama methodu
     public int add(int a, int b, int c, int d, int e){
             return a+b+c+d+e;
-
     }
     // İki ondalikli sayiyi toplama methodu
     public double add(double a, double b) {
