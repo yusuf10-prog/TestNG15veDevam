@@ -15,7 +15,6 @@ public class Calculator {
     // 4 tamsayiyi toplama methodu
     public int add(int a, int b, int c, int d) {
         return a + b + c + d;
-
     }
     // 5 tamsayiyi toplama methodu
     public int add(int a, int b, int c, int d, int e){
@@ -42,16 +41,15 @@ public class Calculator {
         System.out.println("Toplama (int, int, int, int)" + calc.add(3,4,5,6));
 
         // bes tamsayiyi toplama
-
         System.out.println("Toplama(int, int, int, int)" + calc.add(1,2,3,4,5));
 
         // alti tamsayiyi toplama
-
         System.out.println("Toplama(int, int, int, int)" + calc.add(1,2,3,4,5, 6));
-
 
         // İki ondalıklı sayiyi toplama
         System.out.println("Toplama (double): " + calc.add(5.5, 10.5));
+
+        System.out.println(calc.add(3,2));
 
     }
 }
