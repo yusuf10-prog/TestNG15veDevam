@@ -46,6 +46,9 @@ public class Calculator {
         // alti tamsayiyi toplama
         System.out.println("Toplama(int, int, int, int)" + calc.add(1,2,3,4,5, 6));
 
+        // alti tamsayiyi toplama
+        System.out.println("Toplama (int, int, int, int)" + calc.add(1,2,3,4,5,6));
+
         // İki ondalıklı sayiyi toplama
         System.out.println("Toplama (double): " + calc.add(5.5, 10.5));
 
