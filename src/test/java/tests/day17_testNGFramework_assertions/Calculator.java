@@ -37,6 +37,8 @@ public class Calculator {
         // iki tamsayiyi toplama
         System.out.println("toplama (int): " + calc.add(2,3));
 
+        System.out.println("Toplam (int): " + calc.add(3,4,5,6));
+
         // Üç tamsayiyi toplama
         System.out.println("Toplama (int, int, int): " + calc.add(5, 10, 15));
 
