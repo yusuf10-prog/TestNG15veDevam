@@ -28,6 +28,9 @@ public class Calculator {
     public double add(double a, double b) {
         return a + b;
     }
+    public int add(int a, int b, int c, int d, int e, int f, int g){
+        return a+b+c+d+e+f+g;
+    }
     public static void main(String[] args) {
         Calculator calc=new Calculator();
 

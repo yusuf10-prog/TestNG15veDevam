@@ -11,6 +11,5 @@ public class Test {
        Dog dogi=new Dog();
        dogi.makeSound(); // Bark
 
-
     }
 }
