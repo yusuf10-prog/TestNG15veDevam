@@ -31,6 +31,9 @@ public class Calculator {
     public int add(int a, int b, int c, int d, int e, int f, int g){
         return a+b+c+d+e+f+g;
     }
+    public int add (int a, int b, int c, int d, int e, int f, int g, int k){
+        return a+b+c+d+e+f+d+g+k;
+    }
     public static void main(String[] args) {
         Calculator calc=new Calculator();
 
@@ -69,8 +72,6 @@ public class Calculator {
         System.out.println(calc.add(3,2));
 
         // 7 tam sayinin toplami
-
-
         System.out.println(calc.add(1,2,3,4,5,6,7));
 
     }
