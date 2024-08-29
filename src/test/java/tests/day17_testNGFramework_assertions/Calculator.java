@@ -77,7 +77,7 @@ public class Calculator {
         // 8 tam sayinin toplam
         System.out.println(calc.add(1,2,3,4,5,6,7, 8));
 
-        System.out.println(calc.add(1,23,3,444,55,666666,77777,777566524));
+        System.out.println(calc.add(1,23,3,444,55,666,77777,777566));
 
     }
 }
