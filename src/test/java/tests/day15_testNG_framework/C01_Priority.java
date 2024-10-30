@@ -37,7 +37,9 @@ public class C01_Priority {
     kucukten buyuge dogru calistirir
 
     priority atamazsak TestNG default olarak priority=0 alir
+
     ayni priority degerine sahip, birden fazla test method'u varsa
+
     bunlar kendi icerisinde isim sirasina göre calisir.
 
 
